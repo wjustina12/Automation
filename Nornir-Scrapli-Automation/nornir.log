@@ -1,0 +1,302 @@
+2022-03-22 13:40:28,377 -  nornir.core -     INFO -        run() - Running task 'show_version' with args {} on 4 hosts
+2022-03-22 13:49:10,839 -  nornir.core -     INFO -        run() - Running task 'show_version' with args {} on 4 hosts
+2022-03-22 14:08:20,949 -  nornir.core -     INFO -        run() - Running task 'show_version' with args {} on 6 hosts
+2022-03-22 14:08:50,821 -  nornir.core -     INFO -        run() - Running task 'show_version' with args {} on 6 hosts
+2022-03-22 14:09:07,781 -  nornir.core -     INFO -        run() - Running task 'show_version' with args {} on 6 hosts
+2022-03-22 14:28:16,468 -  nornir.core -     INFO -        run() - Running task 'write_to_file' with args {} on 6 hosts
+2022-03-22 14:46:39,332 -  nornir.core -     INFO -        run() - Running task 'write_to_file' with args {} on 6 hosts
+2022-03-22 14:47:28,582 -  nornir.core -     INFO -        run() - Running task 'write_to_file' with args {} on 6 hosts
+2022-03-22 14:58:48,428 -  nornir.core -     INFO -        run() - Running task 'write_to_file' with args {} on 6 hosts
+2022-03-22 14:58:50,976 - nornir.core.task -    ERROR -      start() - Host 'TCS-SW1': task 'write_to_file' failed with traceback:
+Traceback (most recent call last):
+  File "/home/jwilliams/Nornir-Scrapli-Automation/.automation/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Operational_Commands/Show_Commands/Cisco_Runbooks/configuration_backup.py", line 11, in write_to_file
+    configuration_file.write(start_config)
+TypeError: write() argument must be str, not MultiResult
+
+2022-03-22 14:58:51,016 - nornir.core.task -    ERROR -      start() - Host 'TCS-SW2': task 'write_to_file' failed with traceback:
+Traceback (most recent call last):
+  File "/home/jwilliams/Nornir-Scrapli-Automation/.automation/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Operational_Commands/Show_Commands/Cisco_Runbooks/configuration_backup.py", line 11, in write_to_file
+    configuration_file.write(start_config)
+TypeError: write() argument must be str, not MultiResult
+
+2022-03-22 14:58:51,039 - nornir.core.task -    ERROR -      start() - Host 'TCS-SW3': task 'write_to_file' failed with traceback:
+Traceback (most recent call last):
+  File "/home/jwilliams/Nornir-Scrapli-Automation/.automation/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Operational_Commands/Show_Commands/Cisco_Runbooks/configuration_backup.py", line 11, in write_to_file
+    configuration_file.write(start_config)
+TypeError: write() argument must be str, not MultiResult
+
+2022-03-22 14:58:51,102 - nornir.core.task -    ERROR -      start() - Host 'TCS-SW5': task 'write_to_file' failed with traceback:
+Traceback (most recent call last):
+  File "/home/jwilliams/Nornir-Scrapli-Automation/.automation/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Operational_Commands/Show_Commands/Cisco_Runbooks/configuration_backup.py", line 11, in write_to_file
+    configuration_file.write(start_config)
+TypeError: write() argument must be str, not MultiResult
+
+2022-03-22 14:58:51,258 - nornir.core.task -    ERROR -      start() - Host 'TCS-SW4': task 'write_to_file' failed with traceback:
+Traceback (most recent call last):
+  File "/home/jwilliams/Nornir-Scrapli-Automation/.automation/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Operational_Commands/Show_Commands/Cisco_Runbooks/configuration_backup.py", line 11, in write_to_file
+    configuration_file.write(start_config)
+TypeError: write() argument must be str, not MultiResult
+
+2022-03-22 14:58:51,404 - nornir.core.task -    ERROR -      start() - Host 'TCS-SW6': task 'write_to_file' failed with traceback:
+Traceback (most recent call last):
+  File "/home/jwilliams/Nornir-Scrapli-Automation/.automation/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Operational_Commands/Show_Commands/Cisco_Runbooks/configuration_backup.py", line 11, in write_to_file
+    configuration_file.write(start_config)
+TypeError: write() argument must be str, not MultiResult
+
+2022-03-22 15:13:59,792 -  nornir.core -     INFO -        run() - Running task 'write_to_file' with args {} on 6 hosts
+2022-03-22 15:14:02,346 - nornir.core.task -    ERROR -      start() - Host 'TCS-SW3': task 'write_to_file' failed with traceback:
+Traceback (most recent call last):
+  File "/home/jwilliams/Nornir-Scrapli-Automation/.automation/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Operational_Commands/Show_Commands/Cisco_Runbooks/configuration_backup.py", line 17, in write_to_file
+    config_file.write(start_config)
+TypeError: write() argument must be str, not MultiResult
+
+2022-03-22 15:14:02,363 - nornir.core.task -    ERROR -      start() - Host 'TCS-SW4': task 'write_to_file' failed with traceback:
+Traceback (most recent call last):
+  File "/home/jwilliams/Nornir-Scrapli-Automation/.automation/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Operational_Commands/Show_Commands/Cisco_Runbooks/configuration_backup.py", line 17, in write_to_file
+    config_file.write(start_config)
+TypeError: write() argument must be str, not MultiResult
+
+2022-03-22 15:14:02,385 - nornir.core.task -    ERROR -      start() - Host 'TCS-SW5': task 'write_to_file' failed with traceback:
+Traceback (most recent call last):
+  File "/home/jwilliams/Nornir-Scrapli-Automation/.automation/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Operational_Commands/Show_Commands/Cisco_Runbooks/configuration_backup.py", line 17, in write_to_file
+    config_file.write(start_config)
+TypeError: write() argument must be str, not MultiResult
+
+2022-03-22 15:14:02,385 - nornir.core.task -    ERROR -      start() - Host 'TCS-SW2': task 'write_to_file' failed with traceback:
+Traceback (most recent call last):
+  File "/home/jwilliams/Nornir-Scrapli-Automation/.automation/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Operational_Commands/Show_Commands/Cisco_Runbooks/configuration_backup.py", line 17, in write_to_file
+    config_file.write(start_config)
+TypeError: write() argument must be str, not MultiResult
+
+2022-03-22 15:14:02,470 - nornir.core.task -    ERROR -      start() - Host 'TCS-SW6': task 'write_to_file' failed with traceback:
+Traceback (most recent call last):
+  File "/home/jwilliams/Nornir-Scrapli-Automation/.automation/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Operational_Commands/Show_Commands/Cisco_Runbooks/configuration_backup.py", line 17, in write_to_file
+    config_file.write(start_config)
+TypeError: write() argument must be str, not MultiResult
+
+2022-03-22 15:14:02,601 - nornir.core.task -    ERROR -      start() - Host 'TCS-SW1': task 'write_to_file' failed with traceback:
+Traceback (most recent call last):
+  File "/home/jwilliams/Nornir-Scrapli-Automation/.automation/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Operational_Commands/Show_Commands/Cisco_Runbooks/configuration_backup.py", line 17, in write_to_file
+    config_file.write(start_config)
+TypeError: write() argument must be str, not MultiResult
+
+2022-03-22 15:14:21,182 -  nornir.core -     INFO -        run() - Running task 'write_to_file' with args {} on 6 hosts
+2022-03-22 15:14:23,725 - nornir.core.task -    ERROR -      start() - Host 'TCS-SW3': task 'write_to_file' failed with traceback:
+Traceback (most recent call last):
+  File "/home/jwilliams/Nornir-Scrapli-Automation/.automation/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Operational_Commands/Show_Commands/Cisco_Runbooks/configuration_backup.py", line 17, in write_to_file
+    with open(absolute_import, mode='w') as config_file:
+TypeError: expected str, bytes or os.PathLike object, not _Feature
+
+2022-03-22 15:14:23,752 - nornir.core.task -    ERROR -      start() - Host 'TCS-SW2': task 'write_to_file' failed with traceback:
+Traceback (most recent call last):
+  File "/home/jwilliams/Nornir-Scrapli-Automation/.automation/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Operational_Commands/Show_Commands/Cisco_Runbooks/configuration_backup.py", line 17, in write_to_file
+    with open(absolute_import, mode='w') as config_file:
+TypeError: expected str, bytes or os.PathLike object, not _Feature
+
+2022-03-22 15:14:23,770 - nornir.core.task -    ERROR -      start() - Host 'TCS-SW4': task 'write_to_file' failed with traceback:
+Traceback (most recent call last):
+  File "/home/jwilliams/Nornir-Scrapli-Automation/.automation/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Operational_Commands/Show_Commands/Cisco_Runbooks/configuration_backup.py", line 17, in write_to_file
+    with open(absolute_import, mode='w') as config_file:
+TypeError: expected str, bytes or os.PathLike object, not _Feature
+
+2022-03-22 15:14:23,797 - nornir.core.task -    ERROR -      start() - Host 'TCS-SW1': task 'write_to_file' failed with traceback:
+Traceback (most recent call last):
+  File "/home/jwilliams/Nornir-Scrapli-Automation/.automation/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Operational_Commands/Show_Commands/Cisco_Runbooks/configuration_backup.py", line 17, in write_to_file
+    with open(absolute_import, mode='w') as config_file:
+TypeError: expected str, bytes or os.PathLike object, not _Feature
+
+2022-03-22 15:14:24,066 - nornir.core.task -    ERROR -      start() - Host 'TCS-SW6': task 'write_to_file' failed with traceback:
+Traceback (most recent call last):
+  File "/home/jwilliams/Nornir-Scrapli-Automation/.automation/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Operational_Commands/Show_Commands/Cisco_Runbooks/configuration_backup.py", line 17, in write_to_file
+    with open(absolute_import, mode='w') as config_file:
+TypeError: expected str, bytes or os.PathLike object, not _Feature
+
+2022-03-22 15:14:24,251 - nornir.core.task -    ERROR -      start() - Host 'TCS-SW5': task 'write_to_file' failed with traceback:
+Traceback (most recent call last):
+  File "/home/jwilliams/Nornir-Scrapli-Automation/.automation/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Operational_Commands/Show_Commands/Cisco_Runbooks/configuration_backup.py", line 17, in write_to_file
+    with open(absolute_import, mode='w') as config_file:
+TypeError: expected str, bytes or os.PathLike object, not _Feature
+
+2022-03-22 15:54:29,263 -  nornir.core -     INFO -        run() - Running task 'write_to_file' with args {} on 6 hosts
+2022-03-22 15:54:31,771 - nornir.core.task -    ERROR -      start() - Host 'TCS-SW3': task 'write_to_file' failed with traceback:
+Traceback (most recent call last):
+  File "/home/jwilliams/Nornir-Scrapli-Automation/.automation/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Operational_Commands/Show_Commands/Cisco_Runbooks/configuration_backup.py", line 18, in write_to_file
+    config_file.write(start_config)
+TypeError: write() argument must be str, not MultiResult
+
+2022-03-22 15:54:31,791 - nornir.core.task -    ERROR -      start() - Host 'TCS-SW1': task 'write_to_file' failed with traceback:
+Traceback (most recent call last):
+  File "/home/jwilliams/Nornir-Scrapli-Automation/.automation/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Operational_Commands/Show_Commands/Cisco_Runbooks/configuration_backup.py", line 18, in write_to_file
+    config_file.write(start_config)
+TypeError: write() argument must be str, not MultiResult
+
+2022-03-22 15:54:31,848 - nornir.core.task -    ERROR -      start() - Host 'TCS-SW4': task 'write_to_file' failed with traceback:
+Traceback (most recent call last):
+  File "/home/jwilliams/Nornir-Scrapli-Automation/.automation/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Operational_Commands/Show_Commands/Cisco_Runbooks/configuration_backup.py", line 18, in write_to_file
+    config_file.write(start_config)
+TypeError: write() argument must be str, not MultiResult
+
+2022-03-22 15:54:31,945 - nornir.core.task -    ERROR -      start() - Host 'TCS-SW5': task 'write_to_file' failed with traceback:
+Traceback (most recent call last):
+  File "/home/jwilliams/Nornir-Scrapli-Automation/.automation/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Operational_Commands/Show_Commands/Cisco_Runbooks/configuration_backup.py", line 18, in write_to_file
+    config_file.write(start_config)
+TypeError: write() argument must be str, not MultiResult
+
+2022-03-22 15:54:31,968 - nornir.core.task -    ERROR -      start() - Host 'TCS-SW2': task 'write_to_file' failed with traceback:
+Traceback (most recent call last):
+  File "/home/jwilliams/Nornir-Scrapli-Automation/.automation/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Operational_Commands/Show_Commands/Cisco_Runbooks/configuration_backup.py", line 18, in write_to_file
+    config_file.write(start_config)
+TypeError: write() argument must be str, not MultiResult
+
+2022-03-22 15:54:32,353 - nornir.core.task -    ERROR -      start() - Host 'TCS-SW6': task 'write_to_file' failed with traceback:
+Traceback (most recent call last):
+  File "/home/jwilliams/Nornir-Scrapli-Automation/.automation/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Operational_Commands/Show_Commands/Cisco_Runbooks/configuration_backup.py", line 18, in write_to_file
+    config_file.write(start_config)
+TypeError: write() argument must be str, not MultiResult
+
+2022-03-22 15:58:07,104 -  nornir.core -     INFO -        run() - Running task 'write_to_file' with args {} on 6 hosts
+2022-03-22 15:58:09,712 - nornir.core.task -    ERROR -      start() - Host 'TCS-SW1': task 'write_to_file' failed with traceback:
+Traceback (most recent call last):
+  File "/home/jwilliams/Nornir-Scrapli-Automation/.automation/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Operational_Commands/Show_Commands/Cisco_Runbooks/configuration_backup.py", line 17, in write_to_file
+    with open(absolute_name, mode='w') as config_file:
+FileNotFoundError: [Errno 2] No such file or directory: "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Configuration_Backup/<class 'datetime.date'>/TCS-SW1_configuration"
+
+2022-03-22 15:58:09,746 - nornir.core.task -    ERROR -      start() - Host 'TCS-SW2': task 'write_to_file' failed with traceback:
+Traceback (most recent call last):
+  File "/home/jwilliams/Nornir-Scrapli-Automation/.automation/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Operational_Commands/Show_Commands/Cisco_Runbooks/configuration_backup.py", line 17, in write_to_file
+    with open(absolute_name, mode='w') as config_file:
+FileNotFoundError: [Errno 2] No such file or directory: "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Configuration_Backup/<class 'datetime.date'>/TCS-SW2_configuration"
+
+2022-03-22 15:58:09,799 - nornir.core.task -    ERROR -      start() - Host 'TCS-SW3': task 'write_to_file' failed with traceback:
+Traceback (most recent call last):
+  File "/home/jwilliams/Nornir-Scrapli-Automation/.automation/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Operational_Commands/Show_Commands/Cisco_Runbooks/configuration_backup.py", line 17, in write_to_file
+    with open(absolute_name, mode='w') as config_file:
+FileNotFoundError: [Errno 2] No such file or directory: "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Configuration_Backup/<class 'datetime.date'>/TCS-SW3_configuration"
+
+2022-03-22 15:58:09,893 - nornir.core.task -    ERROR -      start() - Host 'TCS-SW5': task 'write_to_file' failed with traceback:
+Traceback (most recent call last):
+  File "/home/jwilliams/Nornir-Scrapli-Automation/.automation/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Operational_Commands/Show_Commands/Cisco_Runbooks/configuration_backup.py", line 17, in write_to_file
+    with open(absolute_name, mode='w') as config_file:
+FileNotFoundError: [Errno 2] No such file or directory: "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Configuration_Backup/<class 'datetime.date'>/TCS-SW5_configuration"
+
+2022-03-22 15:58:09,935 - nornir.core.task -    ERROR -      start() - Host 'TCS-SW6': task 'write_to_file' failed with traceback:
+Traceback (most recent call last):
+  File "/home/jwilliams/Nornir-Scrapli-Automation/.automation/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Operational_Commands/Show_Commands/Cisco_Runbooks/configuration_backup.py", line 17, in write_to_file
+    with open(absolute_name, mode='w') as config_file:
+FileNotFoundError: [Errno 2] No such file or directory: "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Configuration_Backup/<class 'datetime.date'>/TCS-SW6_configuration"
+
+2022-03-22 15:58:09,943 - nornir.core.task -    ERROR -      start() - Host 'TCS-SW4': task 'write_to_file' failed with traceback:
+Traceback (most recent call last):
+  File "/home/jwilliams/Nornir-Scrapli-Automation/.automation/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Operational_Commands/Show_Commands/Cisco_Runbooks/configuration_backup.py", line 17, in write_to_file
+    with open(absolute_name, mode='w') as config_file:
+FileNotFoundError: [Errno 2] No such file or directory: "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Configuration_Backup/<class 'datetime.date'>/TCS-SW4_configuration"
+
+2022-03-22 15:58:32,161 -  nornir.core -     INFO -        run() - Running task 'write_to_file' with args {} on 6 hosts
+2022-03-22 15:58:35,058 - nornir.core.task -    ERROR -      start() - Host 'TCS-SW2': task 'write_to_file' failed with traceback:
+Traceback (most recent call last):
+  File "/home/jwilliams/Nornir-Scrapli-Automation/.automation/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Operational_Commands/Show_Commands/Cisco_Runbooks/configuration_backup.py", line 18, in write_to_file
+    config_file.write(start_config)
+TypeError: write() argument must be str, not MultiResult
+
+2022-03-22 15:58:35,078 - nornir.core.task -    ERROR -      start() - Host 'TCS-SW5': task 'write_to_file' failed with traceback:
+Traceback (most recent call last):
+  File "/home/jwilliams/Nornir-Scrapli-Automation/.automation/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Operational_Commands/Show_Commands/Cisco_Runbooks/configuration_backup.py", line 18, in write_to_file
+    config_file.write(start_config)
+TypeError: write() argument must be str, not MultiResult
+
+2022-03-22 15:58:35,078 - nornir.core.task -    ERROR -      start() - Host 'TCS-SW4': task 'write_to_file' failed with traceback:
+Traceback (most recent call last):
+  File "/home/jwilliams/Nornir-Scrapli-Automation/.automation/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Operational_Commands/Show_Commands/Cisco_Runbooks/configuration_backup.py", line 18, in write_to_file
+    config_file.write(start_config)
+TypeError: write() argument must be str, not MultiResult
+
+2022-03-22 15:58:36,742 - nornir.core.task -    ERROR -      start() - Host 'TCS-SW1': task 'write_to_file' failed with traceback:
+Traceback (most recent call last):
+  File "/home/jwilliams/Nornir-Scrapli-Automation/.automation/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Operational_Commands/Show_Commands/Cisco_Runbooks/configuration_backup.py", line 18, in write_to_file
+    config_file.write(start_config)
+TypeError: write() argument must be str, not MultiResult
+
+2022-03-22 15:58:36,758 - nornir.core.task -    ERROR -      start() - Host 'TCS-SW3': task 'write_to_file' failed with traceback:
+Traceback (most recent call last):
+  File "/home/jwilliams/Nornir-Scrapli-Automation/.automation/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Operational_Commands/Show_Commands/Cisco_Runbooks/configuration_backup.py", line 18, in write_to_file
+    config_file.write(start_config)
+TypeError: write() argument must be str, not MultiResult
+
+2022-03-22 15:58:37,687 - nornir.core.task -    ERROR -      start() - Host 'TCS-SW6': task 'write_to_file' failed with traceback:
+Traceback (most recent call last):
+  File "/home/jwilliams/Nornir-Scrapli-Automation/.automation/lib/python3.8/site-packages/nornir/core/task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Operational_Commands/Show_Commands/Cisco_Runbooks/configuration_backup.py", line 18, in write_to_file
+    config_file.write(start_config)
+TypeError: write() argument must be str, not MultiResult
+

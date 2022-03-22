@@ -1,0 +1,6 @@
+---
+cisco:
+    username: jwilliams
+    password: Password1
+    port: 22
+    platform: ios
