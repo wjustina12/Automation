@@ -11,15 +11,14 @@ nr = InitNornir(config_file="/home/jwilliams/Automation/Nornir-Scrapli-Automatio
 
 def write_to_file(task):
    start_config = task.run(task=send_command, command="show start")
-   string_config = start_config.split()
+   
    
    path = f"/home/jwilliams/Automation/Nornir-Scrapli-Automation/Cisco/Configuration_Backup/{date.today()}"
    file_name = f"{task.host}_configuration"
    absolute_name = os.path.join(path, file_name)
    path_check = os.makedirs(path, exist_ok=True)
 
-   with open(absolute_name, mode='w') as config_file:
-       config_file.write(string_config)
+   task.run(task=write_file, content=start_config.result, filename=absolute_name)
 
 show_result = nr.run(task=write_to_file)
 print_result(show_result)
