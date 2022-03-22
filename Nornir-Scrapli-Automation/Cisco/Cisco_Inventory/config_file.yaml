@@ -2,9 +2,9 @@
 inventory:
     plugin: SimpleInventory
     options:
-        host_file: "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Cisco_Inventory/hosts_file.yaml"
-        group_file: "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Cisco_Inventory/groups_file.yaml"
-        defaults_file: "/home/jwilliams/Nornir-Scrapli-Automation/Cisco/Cisco_Inventory/defaults_file.yaml"
+        host_file: "/home/jwilliams/Automation/Nornir-Scrapli-Automation/Cisco/Cisco_Inventory/hosts_file.yaml"
+        group_file: "/home/jwilliams/Automation/Nornir-Scrapli-Automation/Cisco/Cisco_Inventory/groups_file.yaml"
+        defaults_file: "/home/jwilliams/Automation/Nornir-Scrapli-Automation/Cisco/Cisco_Inventory/defaults_file.yaml"
 
 runner:
     plugin: threaded
